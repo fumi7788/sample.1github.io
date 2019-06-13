@@ -1,0 +1,23 @@
+/* 1000px以下 */
+@media (max-width:1000px){
+.content-item{
+  width: 50%;
+}
+
+.store-item {
+  width: 100%;
+}
+}
+
+/* 670px以下 */
+@media (max-width:670px){
+  .content-item{
+    width: 100%;
+  }
+  .store-item {
+    width: 100%;
+  }
+  .footer {
+    text-align: center;
+  }
+}
